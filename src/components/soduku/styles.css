@@ -1,0 +1,66 @@
+.sudoku-main {
+    display: flex;
+    
+    height: 80vh;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sudoku-board {
+    border: 1px solid cadetblue;
+    background-color: azure;
+    margin-bottom: 5px;
+}
+.sudoku-board::after {
+clear: both;
+content: "";
+display: table;
+}
+.s-restart{
+    color: azure;
+    background-color: dodgerblue;
+    border: 1px solid cadetblue;
+    padding: 3px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    gap: 10px;
+    background-color: navy;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    color: azure;
+    background-color: dodgerblue;
+    border: 1px solid cadetblue;
+    text-align: center;
+    font-size: 30px;
+  }
+  .grid-container::after {
+    clear: both;
+    content: "";
+    display: table;
+    }
+  .rowHeight {
+    margin-bottom: 10px;
+  }
+  .spacer {
+    margin-right: 10px;
+  }
+  .square {
+    color: azure;
+    background-color: dodgerblue;
+    border: 1px solid cadetblue;
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
