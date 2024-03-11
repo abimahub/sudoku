@@ -27,11 +27,16 @@ display: table;
     cursor: pointer;
     margin-top: 5px;
 }
-
+.big-grid-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    gap: 10px;
+}
 .grid-container {
     display: grid;
-    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
-    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
     gap: 10px;
     background-color: navy;
     padding: 10px;
@@ -49,11 +54,16 @@ display: table;
     content: "";
     display: table;
     }
-  .rowHeight {
-    margin-bottom: 10px;
+  .row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 58px 58px 58px;
+    gap: 10px;
+   padding: 10px;
+   background-color: navy;
   }
-  .spacer {
-    margin-right: 10px;
+  .gap {
+    margin-right: 80px;
   }
   .square {
     color: azure;
