@@ -14,7 +14,8 @@ function App() {
         </p>
          <div>
           {/* <div><TicTacToe /></div> */}
-          <div><Sudoku /></div>
+          {/* <div><Sudoku /></div> */}
+          <a href='scratchpad.html'>scratchpad</a>
          </div>         
       </header>
     </div>
